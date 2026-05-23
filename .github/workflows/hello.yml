@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: say hello to users
-        run: echo "hello dosto"
+        run: echo "hello dosto from github actions"
 
       - name: say hello to username
         run: echo "Hello $USER"
