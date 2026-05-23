@@ -15,3 +15,9 @@ jobs:
         run: echo "hello Mate how you doing?"
       - name: say hello to username
         run: echo " Hellp $User"
+    details:
+  #This is Git hub Runner ( Server where Jobs run), each jobs runs on a runner here there are 2 jobs
+    runs-on: ubuntu-latest
+    steps:
+      - name: docker and python version
+        run: docker --version && python --version
