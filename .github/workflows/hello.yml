@@ -14,4 +14,4 @@ Jobs:
       - name: say hello to users
         run: echo "hello dosto"
       - name: say hello to username
-        run: echo " Hellp $User"
+        run: echo " Hello $User"
