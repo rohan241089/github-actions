@@ -12,6 +12,6 @@ Jobs:
     runs on: ubuntu-latest
     steps:
       - name: say hello to users
-        run: echo "hello Mate"
+        run: echo "hello Mate how you doing?"
       - name: say hello to username
         run: echo " Hellp $User"
