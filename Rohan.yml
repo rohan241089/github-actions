@@ -1,16 +1,18 @@
-name : Rohan
+---
+name: Rohan
 DOB: 24/10/1989
-city : pune
+city: pune
 hobbies:
-    - workout
-    - Gardening
-    - Cricket
-experience :
-    Devops :
-        - Git
-        - Github Actions
-        - Jenkins
-        - kubernetes
-        - Monitoring tools
-        - Docker
+  - workout
+  - Gardening
+  - Cricket
+experience:
+  Devops:
+    - Git
+    - Github Actions
+    - Jenkins
+    - kubernetes
+    - Monitoring tools
+    - Docker
+
         
