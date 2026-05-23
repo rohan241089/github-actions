@@ -1,24 +1,26 @@
-#Name of Workflow
 name: Hello2 workflow
+
 on:
-#When to run when someone pushes on Main branch then it triggers
   push:
     branches:
       - main
+
 jobs:
-#Name of Job
-  great:
-  #This is Git hub Runner ( Server where Jobs run), each jobs runs on a runner here there are 2 jobs
+  # First Job
+  greet:
     runs-on: ubuntu-latest
+
     steps:
       - name: say hello to users
         run: echo "hello Mate how you doing?"
+
       - name: say hello to username
-        run: echo " Hello $USER"
-    #second Job
+        run: echo "Hello $USER"
+
+  # Second Job
   details:
-  #This is Git hub Runner ( Server where Jobs run), each jobs runs on a runner here there are 2 jobs
     runs-on: ubuntu-latest
+
     steps:
       - name: docker and python version
         run: docker --version && python --version
