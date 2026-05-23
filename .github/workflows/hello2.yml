@@ -14,7 +14,7 @@ jobs:
       - name: say hello to users
         run: echo "hello Mate how you doing?"
       - name: say hello to username
-        run: echo " Hellp $User"
+        run: echo " Hello $USER"
     #second Job
   details:
   #This is Git hub Runner ( Server where Jobs run), each jobs runs on a runner here there are 2 jobs
