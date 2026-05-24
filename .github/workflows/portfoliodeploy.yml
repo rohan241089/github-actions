@@ -19,7 +19,7 @@ jobs:
         steps:
             #get access to your portfolio code via prebuild actions
             - name: Checkout Code
-              uses: actions/checkout@4
+              uses: actions/checkout@v4
 
               #setup github pages
             - name: setup github pages
